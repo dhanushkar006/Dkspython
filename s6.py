@@ -1,0 +1,5 @@
+name=input("Enter your name: ")
+bg=input("Enter your blood group: ")
+age=int(input("Enter your age: "))
+wg=int(input("Enter your weight in kgs: "))
+result=print("1") if age>18 and wg>40 else print("0")
